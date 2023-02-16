@@ -1,0 +1,11 @@
+.header__titulo{
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: Lato;
+    color: #BBF0DC;
+    text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px blue , 0 0 50px #27FA88, 0 0 60px #27FA88 , 0 0 60px #27FA88;
+    transition: .5s ease-in-out;
+}
+.header__titulo:hover{
+    text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px #02ED7C , 0 0 50px #02ED7C , 0 0 60px #02ED7C , 0 0 60px #02ED7C ;
+}

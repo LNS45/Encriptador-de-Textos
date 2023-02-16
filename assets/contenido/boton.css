@@ -1,0 +1,36 @@
+.boton{
+    position: relative;
+    color: #BBF0DC;
+    background-color: #41C432;
+    height: 1.875rem;
+    border: none;
+    border-radius: 10px;
+    width: 8.125rem;
+    box-shadow: 0 0 5px #81F7C4 , 0 0 6px #81F7C4 , 0 0 8px #81F7C4 , 0 0 10px #81F7C4 ;
+    font-family: Lato;
+    font-weight: 1000;
+    transition: .1s ease-in-out;
+}
+.boton:hover{
+    transform: scale(1.05);
+    background-color: #41AD32;
+    text-shadow: 0 0 2px rgba(255,255,255,1) , 0 0 3px rgba(255,255,255,1) , 0 0 4px rgba(255,255,255,1) , 0 0 5px blue , 0 0 5.2px #27FA88, 0 0 6px #27FA88 , 0 0 8px #27FA88;
+    cursor: pointer;
+}
+@media screen and (max-width: 934px){
+    .boton{
+        font-size: 10px;
+        width: 6rem;
+        height: 1.2rem;
+    }
+}
+@media screen and (max-width: 226px){
+    html{
+        font-size: 8px;
+    }
+    .boton{
+        font-size: 6px;
+        width: 5.4rem;
+        height: 1.2rem;
+    }
+}

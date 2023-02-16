@@ -1,0 +1,5 @@
+.contenedor__encriptacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

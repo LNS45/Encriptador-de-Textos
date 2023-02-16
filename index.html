@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100&effect=neon">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/base.css">
+    <link rel="stylesheet" href="/assets/header/header.css">
+    <link rel="stylesheet" href="/assets/header/header-titulo.css">
+    <link rel="stylesheet" href="/assets/contenido/contenido.css">
+    <link rel="stylesheet" href="/assets/contenido/contenedor.css">
+    <link rel="stylesheet" href="/assets/contenido/contenedor-encriptacion.css">
+    <link rel="stylesheet" href="/assets/contenido/contenedor-textarea.css">
+    <link rel="stylesheet" href="/assets/contenido/botones.css">
+    <link rel="stylesheet" href="/assets/contenido/boton.css">
+    <link rel="stylesheet" href="/assets/contenido/contenedor-desencriptacion.css">
+    <link rel="stylesheet" href="/assets/contenido/contenedor-off.css">
+    <link rel="stylesheet" href="/assets/contenido/contenedor-img.css">
+    <link rel="stylesheet" href="/assets/footer/footer.css">
+    <link rel="stylesheet" href="/assets/footer/footer-titulo.css">
+    <link rel="stylesheet" href="/assets/footer/footer-icon.css">
+    <script src="/script.js"></script>
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__titulo">Encriptador de Texto</h1>
+    </header>
+    <main>
+        <section class="contenido">
+            <div class="contenedor contenedor__encriptacion">
+                <textarea placeholder="Introduce el texto aqui" class="contenedor__textarea" id="input"></textarea>
+                <div class="botones">
+                    <button class="boton" onclick="encriptar()">Encriptar</button>
+                    <button class="boton" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </div>
+            <div class="contenedor contenedor__desencriptacion">
+                <img src="/assets/images/candado.png" alt="Icono de candado" class="contenedor__img" id="icono">
+                <div class="contenedor__off" id="elementos">
+                    <textarea placeholder="" class="contenedor__textarea " readonly id="area__texto"></textarea>
+                    <button class="boton" id="boton__copiar" onclick="botonCopiar()">Copiar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h2 class="footer__titulo">&copy Developer Lorenzo Chavez</h2>
+        <a href="https://github.com/LNS45" class="footer__link"><img class="footer__icon" src="/assets/images/iconmonstr-github-1.svg" alt="icono de github"></a>
+    </footer>
+</body>
+
+</html>

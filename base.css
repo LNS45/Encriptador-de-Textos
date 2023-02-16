@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/assets/images/background.gif);
+    background-size: 100%;
+}
+
+/*Responsive*/
+@media screen and (max-width: 934px){
+    html{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 386px){
+    html{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 226px){
+    html{
+        font-size: 8px;
+    }
+}

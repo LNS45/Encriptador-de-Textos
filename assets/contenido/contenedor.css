@@ -1,0 +1,16 @@
+.contenedor{
+    background-color: #0050F0;
+    width: 25rem;
+    height: 31.25rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 5px #81F7C4 , 0 0 6px #81F7C4 , 0 0 8px #81F7C4 , 0 0 10px #81F7C4 ;
+}
+/*Responsive*/
+@media screen and (max-width: 934px){
+    .contenedor{
+        width: 15rem;
+        height: 15rem;
+    }
+}
