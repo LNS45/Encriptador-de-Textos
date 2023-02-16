@@ -22,6 +22,7 @@
         font-size: 10px;
         width: 6rem;
         height: 1.2rem;
+        font-weight: bold;
     }
 }
 @media screen and (max-width: 226px){
