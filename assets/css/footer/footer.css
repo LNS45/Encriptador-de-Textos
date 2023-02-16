@@ -5,8 +5,12 @@
     height: 2rem;
     justify-content: center;
     align-items: center;
-    margin-top: 13rem;
     text-align: center;
     background-color: #0050F0;
     box-shadow: 0 0 5px #81F7C4 , 0 0 6px #81F7C4 , 0 0 8px #81F7C4 , 0 0 10px #81F7C4 ;
+}
+@media screen and (max-width: 396px){
+    .footer{
+        margin-top: 13rem;
+    }
 }
